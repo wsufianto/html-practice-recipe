@@ -4,11 +4,30 @@ html {
 }
 
 header {
+  font-family: "Sofia";
   text-align: center;
-  padding : 2rem;
+  padding: 2rem;
 }
 
-.ingredients {
+h2 {
+  font-family: "Sofia";
+}
 
-  padding : 1rem;
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+img {
+  max-width: 250px;
+  max-height: 250px;
+  border: solid;
+  margin: 2rem;
+}
+
+.method {
+  margin: 2rem;
+  margin-top: 5rem;
+  max-width: 50%;
 }
