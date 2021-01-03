@@ -13,7 +13,7 @@ Use this project to try some of the html learnings in your own environment! Ther
 
 ### Example
 
-[Have a look at a finished example](jwd-html-practice.netlify.app)
+[Have a look at a finished example](https://jwd-html-practice.netlify.app/)
 
 ### Optional extras
 
