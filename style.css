@@ -1,0 +1,14 @@
+html {
+  background-color: #feeafa;
+  color: #22223b;
+}
+
+header {
+  text-align: center;
+  padding : 2rem;
+}
+
+.ingredients {
+
+  padding : 1rem;
+}
