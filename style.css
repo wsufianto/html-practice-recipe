@@ -13,8 +13,14 @@ header nav {
   text-align: left;
 }
 
+body {
+  margin: 10px 10px;
+}
+
 h2 {
   font-family: "Sofia";
+  width: 100%;
+  text-align: center;
 }
 
 .container {
@@ -33,15 +39,13 @@ img {
 
 .method {
   margin: 2rem;
-  max-width: 80%;
+  max-width: 100%;
 }
 
-h4 {
-  margin: auto;
-  width: 100%;
-  text-align: center;
+.method li {
+  padding: 5px 0;
 }
 
 footer {
-  margin-left: 20px;
+  padding-left: 20px;
 }
