@@ -1,45 +1,61 @@
 html {
-  background-color: #feeafa;
+  background-color: moccasin;
   color: #22223b;
 }
 
 header {
   font-family: "Sofia";
-  text-align: center;
-  padding: 2rem;
-}
-
-header nav {
-  text-align: left;
-}
-
-body {
-  margin: 10px 10px;
+ }
+ 
+nav {
+  background-color: burlywood;
+  padding: 10px;
+  width: 900px;
+  margin: auto;
+  display: grid;
+  grid-template: 1fr / 1fr 1fr;
+  justify-items: center;
 }
 
 h2 {
   font-family: "Sofia";
-  width: 100%;
   text-align: center;
 }
 
 .container {
-  display: flex;
+  display: grid;
+  margin: auto;
+  padding: 10px;
+  width: 900px;
+  height: 900px;
+  grid-gap: 5px 0px;
+  grid-template-rows: 130px 200px 500px 50px;
+  grid-template-columns: 400px 500px;
+  justify-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  padding: 1rem;
+  align-content: space-between;
+}
+
+.title {
+  width: 100%;
+  grid-area: 1 / 1 / span 1 / span 1;
+}
+
+.ingredients {
+  width: 100%;
+  grid-area: 2 / 1 / span 1 / span 1;
 }
 
 img {
-  max-width: 300px;
-  max-height: 300px;
+  max-width: 400px;
   border: solid;
-  margin: 2rem;
+  grid-area: 1 / 2 / span 2 / span 1;
+  align-self: center;
 }
 
 .method {
-  margin: 2rem;
-  max-width: 100%;
+  margin: auto;
+  grid-area: 3 / 1 / span 1 / span 2;
 }
 
 .method li {
@@ -47,5 +63,7 @@ img {
 }
 
 footer {
-  padding-left: 20px;
+  width: 100%;
+  text-align: center;
+  grid-area: 4 / 1 / span 1 / span 2;
 }
